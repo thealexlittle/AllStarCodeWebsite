@@ -1,0 +1,98 @@
+:root {
+	--card-window: e8e8e8;
+	--card-bg: white;
+	
+}
+
+body {
+	margin: 0;
+	font-family:"Bookman Old Style";
+	font-size: 14px;
+}
+
+img {
+	border-radius: 5%;
+	display: block;	
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.background {
+	position: fixed;
+	z-index: -1;   
+	width: 100%;
+	height: 100%;
+	background-image: url('images/background.jpg');
+	background-size: cover;
+	
+	opacity: 0.4;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.header {
+	background-color: var(--card-bg);
+	text-align: left;
+	padding: 1%;
+	margin: 1%;
+	border-radius: 10%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.spacer {
+	background-color: var(--card-window);
+	padding: 1%;
+	margin: 1%;
+	border-radius: 5%;
+}
+
+.main {
+	background-color: var(--card-bg);
+	border-radius: 5%;
+	float: left;
+	width: 75%;
+	padding: 0.5%;
+	margin: 0.5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sidebar {
+	background-color: var(--card-bg);
+	border-radius: 5%;
+	float: right;
+	width: 20%;
+	padding: 0.5%;
+	margin: 0.5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.imgcolumn {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+#video {
+	width: 100%;
+	display: none;
+	padding: 1%;
+}
+
+@media screen and (max-width: 800px) {
+	.main, .sidebar, .header {
+		float: none;
+		width: 100%;
+		padding: 1%;
+		margin: 1%;
+	}
+	
+	body {
+		font-size: 20px;
+	}
+}
+
