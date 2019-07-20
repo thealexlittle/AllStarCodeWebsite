@@ -1,2 +1,2 @@
 # AllStarCodeWebsite
-Hosted Website for technical assesment
+Hosted Website for technical assessment
