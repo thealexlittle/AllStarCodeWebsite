@@ -17,7 +17,6 @@ ReactDOM.render(
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/projects" component={Projects} />
-            {/* Only useful in development mode */}
           </Switch>
         </Router>
 ), document.getElementById('root'));
